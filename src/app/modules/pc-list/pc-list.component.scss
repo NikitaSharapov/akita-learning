@@ -1,0 +1,35 @@
+.example-icon {
+  // padding: 14px 14px;
+  border-radius: 10px;
+}
+
+/* #docregion toolbar-position-content-style */
+.example-spacer {
+  flex: 1;
+  text-align: center;
+}
+/* #enddocregion toolbar-position-content-style */
+.container {
+  margin: 20px;
+}
+
+.card-list {
+  display: grid;
+  grid-template: 1fr /1fr 1fr 1fr 1fr;
+}
+
+@media all and (max-width: 1440px) {
+  .card-list {
+    grid-template: 1fr /1fr 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 1120px) {
+  .card-list {
+    grid-template: 1fr /1fr;
+  }
+}
+
+.example-card {
+  margin: 20px;
+}
